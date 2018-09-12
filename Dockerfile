@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y git build-essential wget pkg-config cur
 
 WORKDIR /
 
-RUN mkdir -p /berkeleydb && git clone https://github.com/bitcoin/bitcoin.git
+RUN mkdir -p /berkeleydb && git clone https://github.com/jixiyu/bitcoin/tree/0.12
 
 WORKDIR /berkeleydb
 
